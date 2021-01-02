@@ -1,0 +1,44 @@
+*,::before,*::after{
+    box-sizing: border-box;
+}
+
+html {
+  font-size: 20px;
+  background: url(./pXh3Mlg-akatsuki-wallpaper-hd.jpg) top center;
+  
+  background-size: cover;
+}
+body{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow: hidden;
+ 
+}
+.drumkit{
+    display: flex;
+    margin-left: 30px;
+   
+}
+.drumkit div{
+    margin: 20px;
+    height: 20vh;
+    width: 8vw;
+
+    border: .4rem solid black;
+  border-radius: .5rem;
+   text-align: center;
+  color: rgb(235, 25, 25);
+
+  background: rgba(0,0,0,0.7);
+  text-shadow: 0 0 1rem black;
+  opacity: 0.9;
+}
+.drumkit div.active{
+      transform: scale(1.1);
+  border-color: #f33210;
+  box-shadow: 0 0 1rem #f33210;
+   
+}
